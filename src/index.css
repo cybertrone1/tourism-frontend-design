@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html{
+    font-family: "Montserrat", sans-serif;
+    background-color: #fff;
+  }
+}
+
+@layer components {
+  .intro-content{
+    width: 94%;
+    margin: 12px 3%;
+    height: 30vh;
+    background-color: aqua;
+  }
+  .intro-text{
+    padding-top: 17%;
+  }
+  .book-ticket{
+    width: 90%;
+    height: 300px;
+    margin: 17px 5%;
+  }
+  label{
+    font-size: 8px;
+    text-transform: capitalize;
+  }
+  input, select{
+    border: none;
+    outline: none;
+    padding: 2px 5px;
+  }
+  input::placeholder{
+    font-size: 10px;
+  }
+  .intro-trip{
+    width: 90%;
+    margin: 5% 5% 50px 5%;
+  }
+  .intro-container{
+    height: 500px;
+  }
+  .place-type{
+    width: 90%;
+    margin: 40px 5%;
+  }
+  .feedbacks{
+    width: 80%;
+    margin: 40px 10%;
+  }
+  .text{
+    font-size: 10px;
+    font-weight: 600;
+  }
+  .footerAds{
+    width: 80%;
+    margin: 0 10%;
+  }
+}
+
+@layer utilities{
+  .place-content p{
+    font-size: 13px;
+    padding: 10% 5%;
+  }
+  .text h2{
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .text p{
+    font-size: 14px;
+  }
+  .text .p{
+    font-size: 8px;
+  }
+  .trip-text button, .maptext button{
+    font-size: 9px;
+  }
+  .div-text button{
+    font-size: 10px;
+  }
+  .innertext .p{
+    font-size: 9px;
+  }
+  .intro-text .p{
+    font-size: 8px;
+  }
+}

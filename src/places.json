@@ -1,0 +1,50 @@
+{
+    "places": [
+        {
+            "id": 1,
+            "image": "/place1.jpg",
+            "text": "Istanbul, Turkey"
+        },
+        {
+            "id": 2,
+            "image": "/place2.jpg",
+            "text": "Sydney, Australia"
+        },
+        {
+            "id": 3,
+            "image": "/place3.jpg",
+            "text": "Baku, Azerbaijan"
+        },
+    
+        {
+            "id": 4,
+            "image": "/place4.jpg",
+            "text": "Malé, Maldives"
+        },
+        {
+            "id": 5,
+            "image": "/place5.jpg",
+            "text": "Paris, France"
+        },
+        {
+            "id": 6,
+            "image": "/place6.jpg",
+            "text": "New York, US"
+        },
+        {
+            "id": 7,
+            "image": "/place7.jpg",
+            "text": "London, UK"
+        },
+        {
+            "id": 8,
+            "image": "/place8.jpg",
+            "text": "Tokyo, Japan"
+        },
+        {
+            "id": 9,
+            "image": "/place9.jpg",
+            "text": "Dubai, UAE"
+        }
+    ]
+}
